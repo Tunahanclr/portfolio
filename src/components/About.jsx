@@ -21,7 +21,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              Hello! I'm Tunahan, a 16-year-old front-end developer living in
+              Hello! I'm Tunahan, a 17-year-old front-end developer living in
               Bursa, Turkey. My passion and curiosity for web design have driven
               me to pursue growth in this field. Although I may not have
               extensive experience, I am constantly eager to learn and explore
