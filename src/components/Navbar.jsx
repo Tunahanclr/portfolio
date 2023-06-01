@@ -42,15 +42,17 @@ export default function Navbar() {
         </div>
         {/* mobile menu */}
         {nav && (
-          <div className="absolute top-0  left-0 w-full h-screen bg-[#0a192f] text-2xl md:hidden">
-            <div className="flex justify-end p-4">
+          <div className="absolute top-0 z-50  left-0 w-full h-screen bg-[#0a192f] text-2xl md:hidden">
+            <div className="flex justify-end z-50 p-4">
               <FaTimes className="z-50" onClick={handleClick} />
             </div>
             <ul className="flex flex-col items-center gap-4 mt-36">
               <a href="#home">
                 <li className="cursor-pointer">Home</li>
               </a>{" "}
-              <li className="cursor-pointer">About</li>
+              <li className="cursor-pointer">
+            <a href="#about">About</a>
+          </li>
               <a href="#skiils">
                 <li className="cursor-pointer">Skills</li>
               </a>
